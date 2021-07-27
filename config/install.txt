@@ -1,0 +1,2 @@
+1-  executer les requetes sql existantes dans requete.sql
+2- configurer le ficher PDOAccees en changeant l'user et le password

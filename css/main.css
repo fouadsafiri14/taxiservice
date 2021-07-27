@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-position: initial;
+    background-image: url("../images/taxi.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+p
+{
+    color:red;
+    font-weight:bold;
+}
+
+/* mobile first design */
+[class *="col-"]{
+    width: 100%;
+}
+
+
+a{
+    color: rgba(247, 247, 248, 0.637);
+    text-decoration: none;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+div.header{
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+}
+
+div#loginform{
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+span{
+    color:rgba(187, 15, 178, 0.795);
+}
+
+form{
+    padding: 70px;
+   margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    opacity: 0.9;
+    border: transparent;
+    display: table;
+    text-align: center;
+
+}
+form > header{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+form > input{
+    background-color: transparent;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(11, 12, 12, 0.521);
+    border-radius: 0px;
+    text-align: left;
+
+}
+label
+ {
+    display:flex;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+ }
+form > button{
+    background-color: rgba(255, 255, 255, 0.651);
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: end;
+    border-color: transparent;
+}
+.subscribe_bt {
+    color: #ffffff;
+    background-color: #e3e318;
+     width: 50%;
+     height: 42px;
+    font-size: 17px;
+  border-radius:60px;
+      text-align: center;
+}
+
+form > input::placeholder{
+    color : black;
+}
+
+
+.formicon{
+    width: 20px;
+    height: 15px;
+}
+.formloginicon{
+    width: 24px;
+    height: 24px;
+}
+.formflexicons
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+@media only screen and (min-width:768px){
+
+    
+    .subscribe_bt {
+        color: #ffffff;
+        background-color: #e3e318;
+       width: 50%;
+      height: 42px;
+      font-size: 17px;
+    }
+
+    div#loginform{
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+    
+    span{
+        color:rgba(187, 15, 178, 0.795);
+    }
+    
+    form{
+        padding: 100px;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-radius: 10px;
+           background-color: #e9ecef;
+            opacity: 0.9;
+        border: transparent;
+        display: table;
+        text-align: center;
+    
+    }
+    form > header{
+        color: rgb(8, 8, 8);
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    form > input{
+        background-color: transparent;
+        width: 70%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: rgba(11, 12, 12, 0.521);
+        border-radius: 0px;
+        text-align: left;
+    
+    }
+    form > button{
+        background-color: rgba(255, 255, 255, 0.651);
+        border: 1px solid;
+        padding: 5px;
+        margin-top: 10px;
+        justify-content: end;
+        border-color: transparent;
+    }
+    
+    form > input::placeholder{
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    .formicon{
+        width: 20px;
+        height: 15px;
+    }
+    .formloginicon{
+        width: 24px;
+        height: 24px;
+    }
+    .formflexicons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+
+col-lg-1{
+width: 8.33%;
+}
+
+col-lg-2{
+width: 16.66%;    
+}
+
+col-lg-3{
+width: 25%;   
+}
+
+col-lg-4{
+width: 33.33%; 
+}
+
+col-lg-5{
+width: 41.66%;   
+}
+
+col-lg-6{
+width: 50%;   
+}
+
+col-lg-7{
+width: 58.33%;  
+}
+
+col-lg-8{
+width: 66.66%;   
+}
+
+col-lg-9{
+width: 75%;  
+}
+
+col-lg-10{
+width: 83.33%;   
+}
+
+col-lg-11{
+width: 91.66%;   
+}
+
+col-lg-12{
+width: 100%;    
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    border-color: transparent;
+    border: 1px solid;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+}.
+
+
